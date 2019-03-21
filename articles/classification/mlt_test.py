@@ -15,8 +15,8 @@ plt.scatter(np.random.rand(N),
             s=area, 
             c=np.random.rand(N), 
             alpha=0.5)
-plt.title("제발")
-plt.ylabel("와이축")
-plt.xlabel("엑스축")
+plt.title("test")
+plt.ylabel("x_axis")
+plt.xlabel("y_axis")
 tt = os.path.join(gettempdir(), 'test.png')
 plt.savefig(tt)
